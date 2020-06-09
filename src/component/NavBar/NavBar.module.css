@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 50px;
+    width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+
+}
+.link {
+    text-decoration: none;
+  }
+.active {
+
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: rgb(83, 83, 187);
+}

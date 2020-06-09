@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+}
+.logo {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.phoneCity {
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: white;
+}
+.phoneMob {
+    color: white;
+}
