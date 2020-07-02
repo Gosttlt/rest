@@ -1,5 +1,4 @@
 export const requireFormRadio = (value) => {
     if(value) return undefined;
-return 'Выберите один из вариантов';
-    
+return 'Выберите один из вариантов';   
 }

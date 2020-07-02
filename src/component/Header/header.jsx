@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import s from './header.module.css'
 import { NavLink } from 'react-router-dom';
 
+
+
 const Header = (props) => {
+    const [scroll, setScroll] = useState(0);
+    const handleScroll = () => {
+      setScroll(window.scrollY);
+    };
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+      }, []);
+
     return (
         <div className={s.header}>
             <div><NavLink to="/"  className={s.logo}>- RESTORATION -</NavLink></div>

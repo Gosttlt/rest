@@ -1,22 +1,32 @@
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 18px 50px;
+    justify-content: space-around;
     width: 1170px;
     margin: 0 auto;
     box-sizing: border-box;
     color: rgb(77, 77, 77);
     font-weight: bold;
-
 }
 .link {
     text-decoration: none;
-  }
-.active {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 15px 0;
+    transition: 0.5s;
+    cursor: pointer;
 
-    text-decoration: underline;
+   
 }
-
+.active {
+    text-decoration: underline;
+    background: rgb(255, 99, 99);
+    color: white;
+}
 .link:hover {
-    color: rgb(83, 83, 187);
+    
+    background:rgb(255, 99, 99);
+    color: white;
+    transform: scaleY(1.05);
+    transform: scaleX(1.05);
 }

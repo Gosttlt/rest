@@ -1,0 +1,18 @@
+.radioInputSpan {
+    color: red;
+    display: none;
+}
+.error {
+    display: block;
+}
+.answerItemBox  {
+    padding: 5px;
+}
+.answerLabel {
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    margin-right: 5px;
+}

@@ -11,8 +11,8 @@
 }
 .logo {
     font-size: 18px;
-    color: white;
     text-decoration: none;
+    color: white;
 }
 .phone {
     display: flex;
@@ -22,8 +22,8 @@
 .phoneCity {
     font-size: 18px;
     padding-bottom: 5px;
+}
+.phone div {
     color: white;
 }
-.phoneMob {
-    color: white;
-}
+
